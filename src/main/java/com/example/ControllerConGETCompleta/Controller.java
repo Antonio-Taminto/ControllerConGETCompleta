@@ -12,4 +12,9 @@ public class Controller {
         user.dichiaraSaluto();
         return user;
     }
+    @PostMapping("/ciaov2")
+    public User ciao2(@RequestBody User user){
+        user.dichiaraSaluto();
+        return user;
+    }
 }
